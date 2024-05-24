@@ -1,0 +1,60 @@
+		
+		
+Packaging and Data Kits in Data Cloud	Identify Packageable Components in Data Cloud	Explain the difference between unmanaged and managed packages.
+		Identify when to use a data kit in Data Cloud.
+		Learn about application lifecycle management (ALM) and its application to Data Cloud
+Metadata		
+Salesforce Package		
+		
+create data kits and package elements deploment to UAT org and prod		
+		
+Create and upload a data kit		
+open data cloud setup		
+data kits->new, 		
+Give label and description		
+you can add data streams, data models and calculated insights		
+add data kits		
+Select connector type(Amazon s3, salesforce crm, etc)		
+add the data streams you want to package		
+next		
+All reated objects and relationships within the data stream selected are included in bundle		
+save		
+it is ready and now you can publish to package manager		
+Click on publish, 		
+Click open package manager		
+under package, click new		
+Add package name and description		
+from component tab, click add		
+select component type as – Data kit definition		
+select the data kit you created		
+now components are visible		
+Click on upload		
+Give version name , click upload again		
+yoor package Is now available for install using the installation url		
+you can use the installation url to install the package in another org.		
+		
+Data kit installation		
+copy the installation url		
+Append the installation url to org url		
+install for admins only and install		
+data stream-> new		
+connect source as salesforce crm		
+choose the salesforce org		
+select the data kit(also called data bundle) that under custom data bunde		
+select the data space where you want to deploy your data kit to and click next		
+click deploy		
+		
+Data Cloud Solutions on AppExchange: Quick Look	Explain what Data Cloud solutions are.	
+	Describe three types of Data Cloud solutions.	
+	List some advantages of using Data Cloud solutions.	
+	Search for best-fit Data Cloud solutions on AppExchange.	
+	Identify resources to learn more about building Data Cloud solutions.	
+		
+Data cloud admin	can access all functionality, like mapping data to the data model and creating data streams, identity resolution rulesets, and calculated insights	
+Data cloud user	can view data cloud features	
+Data cloud marketing admin	can manage data to day configuration needs,	
+Data cloud data aware specialist	can map data to the data model and create data streams, identify resolution rulesets and calculated insights	
+Data cloud marketing manager	can manage overall segmentation strategy, including creating activation tagrgets and activations	
+Data cloud marketing specialist	can create segments	
+		
+clone standard data cloud permission sets to create new		
